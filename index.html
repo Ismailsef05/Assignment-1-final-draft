@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="">
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+<!-- Color Scale -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+  <meta charset="utf-8">
+  <title>Assignment 1 Second try</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+   
+
+<body>
+
+    <div class = "intro" >
+        <p class = "bold"> Hypothesis :</p>
+        <br>The night light development index is a measurement of human development derived from night-time satellite imagery and population density. </br>This can possibly give us insight into the economic growth of the countries within that period.
+    <p>
+        <div id = "plot1">
+            <script src = "plot1.js"></script>
+        </div>
+    
+        <div id = "histo">
+            <script src = draft.js></script>
+        </div>
+    </p>
+    NLDI data source:
+    <a href = "https://www.researchgate.net/publication/266224607_The_Night_Light_Development_Index_NLDI_A_spatially_explicit_measure_of_human_development_from_satellite_data" target = blank>
+        https://www.researchgate.net/publication/266224607_The_Night_Light_Development_Index_NLDI_A_spatially_explicit_measure_of_human_development_from_satellite_data
+    </a>
+         <p> GDP data source:
+            <a href = "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" target = blank>
+                https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+            </a>
+         </p>
+  
+  
+</body>
+</html>

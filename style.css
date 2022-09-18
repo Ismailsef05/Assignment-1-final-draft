@@ -1,0 +1,9 @@
+.intro{
+    font-size: medium;
+}
+
+.bold{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+}
